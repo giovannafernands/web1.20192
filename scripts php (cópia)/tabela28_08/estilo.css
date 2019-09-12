@@ -1,0 +1,22 @@
+table,tr,th{
+        border: 1px solid #000000;
+        text-align: left;
+        padding: 10px;
+        border-collapse: collapse;
+        margin: auto;
+    	}
+		 tr:nth-child(even) {
+    	  background-color: #dddddd;
+        background-image: linear-gradient(#77bafc,#f1affa);
+}		
+td{
+	border: 1px solid #000000
+}
+
+input{
+     width: 10%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     box-sizing: border-box;
+    
+}
