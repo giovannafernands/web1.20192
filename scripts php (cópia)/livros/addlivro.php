@@ -3,10 +3,10 @@
 require 'config.php';
 
 
-$nome = $_POST['nome']?? false;
-$autor = $_POST['autor']?? false;
-$genero = $_POST['genero']?? false;
-$personagem = $_POST['select-personagem']?? false;
+$nome = $_POST['nome'];
+$autor = $_POST['autor'];
+$genero = $_POST['genero'];
+$personagem = $_POST['select-personagem'];
 $personagem_dt = trim($personagem);
 
 if ($nome ==  false || $autor == false || $genero == false || $personagem == false) {

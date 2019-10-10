@@ -31,7 +31,6 @@ $livros = array_map('explodir', $data);
 			<td><?= $livros[$id]['Nome'] ?></td>
 			<td><?= $livros[$id]['Autor'] ?></td>
 			<td><?= $livros[$id]['Genero'] ?></td>
-			<td><?= $livros[$id]["Personagens"] ?></td>
 			<td><a href="deletelivro.php?id=<?= $id ?>">&times;</a></td>
 		</tr>
 	</tbody>

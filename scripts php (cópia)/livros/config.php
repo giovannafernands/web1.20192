@@ -1,8 +1,9 @@
 <?php 
 
-
+ session_start();
 define('PER_FILE','personagens.csv');
 define('LIVS_FILE', 'livros.csv');
+define('CAD_FILE', 'cadastros.csv');
 
 
 
@@ -25,4 +26,3 @@ function explodir($vl){
 }
 
 
- ?>

@@ -2,7 +2,7 @@
 require 'begin.php';
 require 'config.php';
 
-$data = file(LIV_FILE);
+$data = file(PER_FILE);
 
 $data_livs = file(LIVS_FILE);
 
@@ -18,7 +18,11 @@ $livros = array_map('explodir', $data_livs);
             <h4><?= $_GET['msg'] ?></h4>
       </div>
 <?php endif ?>
-
+<div class="banner">   
+    <a href="index.php" class="a2"> MENU</a>
+    <a href="cadastro.php" class="a2"> CADASTRO</a>
+    <a href="login.php" class="a2"> LOGIN</a>
+</div>
 
 <table class="livs-table">     
       <thead>
